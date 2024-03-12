@@ -1,0 +1,205 @@
+body {
+background-image: url('img/fon.jpg');
+}
+ #ph1{
+    opacity: 0.8;
+ }
+p.center {
+    text-align: center;
+    color: red;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 80px;
+   
+  }
+  a:link {
+    color: red; 
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+   text-decoration: none;
+  }
+  
+  a:hover {
+    color: purple;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+   text-decoration: underline;
+  }
+  h1 {
+    text-align: center;
+    color: red;
+  }
+  
+  h2 {
+   text-align: center;
+    color: red;
+  }
+  
+  p {
+    text-align: center;
+    color: red;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  table {
+    border-collapse: collapse;
+  }
+  td {
+    text-align: center;
+    height: 50px;
+    vertical-align: bottom;
+   }
+   th {
+    text-align: left;
+   }
+   ol {
+    background: #ff9999;
+    padding: 20;
+  }
+  
+  ul {
+    background: #3399ff;
+    padding: 20;
+  }
+  
+  ol li {
+    background: #ffe5e5;
+    padding: 5px;
+    margin-left: 35px;
+  }
+  
+  ul li {
+    background: #cce5ff;
+    margin: 5px;
+  }
+  tr:hover {background-color: coral;}
+
+  #rcorners1 {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px; 
+  }
+
+  @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  
+  #m1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 4s;
+  }
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black; 
+  }
+  
+
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+   
+    
+    position: absolute;
+    z-index: 1;
+  }
+  
+ 
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+img {
+    border-radius: 8px;
+  }
+
+  .button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #04AA6D;
+  }
+  
+  .button2 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+  }
+  
+  .button3 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+  }
+  
+  .button4 {
+    background-color: white;
+    color: black;
+    border: 2px solid #e7e7e7;
+  }
+  
+  .button5 {
+    background-color: white;
+    color: black;
+    border: 2px solid #555555;
+  }
+  ul.breadcrumb {
+    padding: 8px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  ul.breadcrumb li {display: inline;}
+  
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  ul.breadcrumb li a {color: green;}
+
+  div {
+    box-shadow: 5px 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 50px;
+  }
